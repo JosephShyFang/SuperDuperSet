@@ -1,0 +1,20 @@
+# Ignore the virtual environment folder
+venv/
+
+# Ignore Django migration files (optional, but recommended to avoid conflicts in team projects)
+**/migrations/
+*.pyc
+__pycache__/
+
+# Ignore the SQLite database file (if using SQLite for local development)
+db.sqlite3
+
+# Ignore environment variable files
+.env
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore IDE/editor config files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
